@@ -1,0 +1,22 @@
+/* LandingPage.css */
+.LandingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+.LandingPage .header {
+  width: 100%;
+}
+
+.LandingPage .filter-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.LandingPage .headline-list {
+  width: 100%;
+  max-width: 1200px;
+}

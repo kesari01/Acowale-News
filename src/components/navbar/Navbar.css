@@ -1,0 +1,50 @@
+.bg-body-tertiary {
+  background-color: #007bff;
+  width: 100%; /* Make sure the navbar spans the full width */
+  padding: 10; /* Remove any extra padding */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: black;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+}
+
+.btn-outline-success {
+  border-color: black;
+  color: black;
+}
+
+.btn-outline-success:hover {
+  background-color: white;
+  color: #007bff;
+}
+
+/* Ensure full-width and padding adjustments for different screen sizes */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 1rem; /* Add padding for mobile devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .form-control {
+    width: 100%; /* Ensure the search input stretches across the width */
+  }
+
+  .btn-outline-success {
+    width: 100%; /* Button stretches across the width for better alignment */
+  }
+}

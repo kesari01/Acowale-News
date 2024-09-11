@@ -1,0 +1,33 @@
+/* Headline.css */
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-button {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
